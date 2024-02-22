@@ -49,9 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Condicionales y ciclos
     function countGender() {
         for (let i = 0; i < totalPersons; i++) {
-            // Obtener el género de la persona
             const gender = document.getElementById(`gender${i}`).value;
-            // Contar personas masculinas y femeninas
+            
             if (gender === 'masculino') {
                 totalMen++;
             } else {
