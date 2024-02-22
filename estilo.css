@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: rgb(249, 248, 248);
+    background-image: url("/img/fondo-abstracto-textura_1258-30506.avif");
+    
+}
+
+.container h1{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #f3f3f4;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+    color: aliceblue;
+}
+
+#results {
+    margin-top: 30px;
+    color: white;
+}
+
+#results h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
